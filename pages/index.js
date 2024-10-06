@@ -24,18 +24,7 @@ import Image from 'next/image'
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, Welcome to website on the internet!
-      </Box>
-
-      <Box display={{ md: 'flex' }}>
+        <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Salahuddin Choudhary
