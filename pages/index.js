@@ -48,7 +48,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/headshot_genAI.jpg"
               alt="Profile image"
               width="100"
               height="100"
